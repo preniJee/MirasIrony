@@ -1,5 +1,4 @@
-# MirasIrony
-: An Automatically Generated Text Corpus for Persian
+# MirasIrony : A Persian Text Corpus of ironic and non-ironic tweets.
 This repository contains MirasText corpus and description along side with what it has been used for and what it can be used for. A sample of the dataset is provided in MirasText_sample.txt which contains 1000 documents. The full dataset is uploaded in google drive and you can download it [here](https://drive.google.com/file/d/1QNHPv4B22d-Dj7oYoOKQNx2zUfFzsAUL/view?usp=sharing). In order to use the complete dataset you need to submit a request to behnam@miras-tech.com and we will provide you with the password needed to extract MirasText.zip.
 
 ## MirasText Description
