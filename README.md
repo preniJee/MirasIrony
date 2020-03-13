@@ -3,42 +3,22 @@ This repository contains MirasIrony corpus and description along side with what 
 
 ## MirasIrony Description
 MirasText is the result of manually annotated Persian tweets as ironic or non-ironic.
-The definition of irony that was used during the annotation process is as follows:
-#### "The use of words that are the opposite of what you mean, as a way of being funny.” and ”A situation in which something whichwas intended to have a particular result has the opposite or a very different result".
-MirasText has more than 2.8 million articles and over 1.4 billion content words. The following table demonstrates the statistics of the corpus:
+The definition of irony that was used during the annotation process is *"The use of words that are the opposite of what you mean, as a way of being funny.”* and *”A situation in which something whichwas intended to have a particular result has the opposite or a very different result"*. In Persian it has been translated as sarcasm, satire, mockery and ridicule.
+ 
+The following table demonstrates the statistics of the corpus:
 
-|       Total Documents      |   2,835,414   |
+|       Total number of samples      |   2941   |
 |:--------------------------:|:-------------:|
-|     Total Content Words    | 1,429,878,960 |
-|   Average Content Length   |     504.3     |
-|      Average Keywords      |      8.4      |
-| Average Description Length |      19.8     |
-|    Average Title Length    |      9.5      |
-
-## What it has been used for
-At Miras Technologies International we are using MirasText to develop some NLP applications. including:
-* Document Classification
-* Word Embedding Extraction
-* Summarization
-* Keyword Extraction
-
-Please inform us if you have used MirasText for any porpuses to be added to this list.
-
-## What it can be used for
-MirasText can be used for a variety of NLP tasks, besides from the applications mentioned above it can also be used for:
-* Language Modeling
-* Title Extraction
-* Named Entity Recognition (for an unsupervised approach)
+|     Number of ironic samples    | 1278 |
+|   Number of non-ironic samples   |     1663     |
+|      Average number of tokens per tweet      |      32.25     |
+| Maximum number of tokens per tweet |      50    |
 
 ## Dataset Description
-The dataset is provided in MirasText.zip. You will have to extract it first, then simply use parser.py to read the dataset line by line. Each line contains one article. The attributes of each article are delimited using an special delimiter to avoid conflicts. (delimiter = ***)
-
-Each article is provided in the following format:
-content *** description *** keywords *** title *** website *** url
-(note that *** is the delimiter used to separate the attributes)
+The dataset is provided in Irony_Dataset/MirasIrony.xlsx. Each line contains a tweet and it's coressponding label. Label 1 is for ironic and 0 for non-ironic.
 
 ## Cite
-Please cite the following paper in your publication if you are using MirasText in your research:
+Please cite the following paper in your publication if you are using MirasIrony in your research:
 ```bibtex
 @InProceedings{SABETI18.385,
   author = {Behnam Sabeti ,Hossein Abedi Firouzjaee ,Ali Janalizadeh Choobbasti ,Seyed hani elamahdi Mortazavi Najafabadi and Amir Vaheb},
