@@ -1,5 +1,5 @@
 # MirasIrony : A Persian Text Corpus of ironic and non-ironic tweets.
-This repository contains MirasIrony corpus and description along side with what it has been used for and what it can be used for. The dataset is provided in Irony_Dataset/MirasIrony.xlsx which contains 2942 data samples. In order to use the dataset you need to submit a request to preni@miras-tech.com and we will provide you with the password needed to access the MirasIrony.xlsx .
+This repository contains MirasIrony corpus, its description and the article in which it was presented. The dataset is provided in the Irony_Dataset/MirasIrony.xlsx which contains 2942 data samples. In order to use the dataset you need to submit a request to preni@miras-tech.com and we will provide you with the password needed to access the MirasIrony.xlsx. Each line contains a tweet and it's coressponding label. Label 1 is for ironic and 0 for non-ironic.
 
 ## MirasIrony Description
 MirasText is the result of manually annotated Persian tweets as ironic or non-ironic.
@@ -14,8 +14,6 @@ The following table demonstrates the statistics of the corpus:
 |      Average number of tokens per tweet      |      32.25     |
 | Maximum number of tokens per tweet |      50    |
 
-## Dataset Description
-The dataset is provided in Irony_Dataset/MirasIrony.xlsx. Each line contains a tweet and it's coressponding label. Label 1 is for ironic and 0 for non-ironic.
 
 ## Cite
 Please cite the following paper in your publication if you are using MirasIrony in your research:
