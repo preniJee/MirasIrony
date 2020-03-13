@@ -1,15 +1,10 @@
 # MirasIrony : A Persian Text Corpus of ironic and non-ironic tweets.
-This repository contains MirasText corpus and description along side with what it has been used for and what it can be used for. A sample of the dataset is provided in MirasText_sample.txt which contains 1000 documents. The full dataset is uploaded in google drive and you can download it [here](https://drive.google.com/file/d/1QNHPv4B22d-Dj7oYoOKQNx2zUfFzsAUL/view?usp=sharing). In order to use the complete dataset you need to submit a request to behnam@miras-tech.com and we will provide you with the password needed to extract MirasText.zip.
+This repository contains MirasIrony corpus and description along side with what it has been used for and what it can be used for. The dataset is provided in Irony_Dataset/MirasIrony.xlsx which contains 2942 data samples. In order to use the dataset you need to submit a request to preni@miras-tech.com and we will provide you with the password needed to access the MirasIrony.xlsx .
 
-## MirasText Description
-MirasText is the result of crawling more than 250 persain news websites. Each article in MirasText contains the following attributes:
-* Content: The article content
-* Description: The summary provided for each article (may not be available in some articles (nan))
-* Keywords: The keywords associated with each article (may not be available in some articles (nan))
-* Title: Title of the article
-* Website: The website from which the article is crawled
-* URL: The article absolute URL
-
+## MirasIrony Description
+MirasText is the result of manually annotated Persian tweets as ironic or non-ironic.
+The definition of irony that was used during the annotation process is as follows:
+#### "The use of words that are the opposite of what you mean, as a way of being funny.” and ”A situation in which something whichwas intended to have a particular result has the opposite or a very different result".
 MirasText has more than 2.8 million articles and over 1.4 billion content words. The following table demonstrates the statistics of the corpus:
 
 |       Total Documents      |   2,835,414   |
